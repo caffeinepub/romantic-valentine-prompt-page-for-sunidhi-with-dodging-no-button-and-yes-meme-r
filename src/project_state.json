@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 7,
   "summary": "Interactive romantic Valentine web page for Sunidhi with Yes/No options (No button dodges cursor) and a meme shown after clicking Yes; pink/white theme; runnable on iPad Chrome using HTML/CSS/JS.",
   "architectural_notes": [
     "Use a single self-contained HTML file with embedded CSS/JS for easy opening on iPad Chrome."

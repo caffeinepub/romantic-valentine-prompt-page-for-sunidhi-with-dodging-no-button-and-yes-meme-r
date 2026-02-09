@@ -1,15 +1,15 @@
 {
-  "backend/main.mo": "Empty Motoko actor with no methods.",
-  "feature_evidence.json": "Feature evidence report declaring no collected features.",
-  "frontend-file-summaries.txt": "Text file mapping frontend file paths to short human-written descriptions of each component and asset.",
-  "frontend/index.css": "Tailwind base and theme variable setup defining light/dark color tokens and global styles.",
-  "frontend/index.html": "HTML entrypoint providing the root div and loading the main React script.",
-  "frontend/src/App.tsx": "Simple wrapper component that renders ValentineApp.",
-  "frontend/src/hooks/useActor.ts": "React hook that creates and caches an authenticated or anonymous backend actor using react-query.",
-  "frontend/src/hooks/useInternetIdentity.ts": "Internet Identity auth context and provider handling login, stored identities, and status management.",
-  "frontend/src/index.css": "Tailwind-based romantic pink theme with light/dark mode variables, fonts, and fade-in animation.",
-  "frontend/src/main.tsx": "React entrypoint configuring query client and identity provider before rendering App.",
-  "frontend/src/ValentineApp.tsx": "Main interactive Valentine UI with Yes/No buttons, dodging No behavior, and meme reveal after Yes.",
-  "frontend/tailwind.config.js": "Tailwind configuration extending colors, radius, animations, and plugins for the themed UI.",
-  "project_state.json": "Holds the project’s metadata, feature list, and pending requests for an interactive Valentine webpage with a dodging No button and a meme reveal on Yes. Provides design notes, requirements, and styling expectations for an iPad‑friendly single HTML file."
+  "backend/main.mo": "Minimal Motoko canister defining an empty actor.",
+  "feature_evidence.json": "A feature evidence report JSON with an empty features list.",
+  "frontend-file-summaries.txt": "Lists short descriptions of key frontend files including components, styles, Tailwind config, and meme asset.",
+  "frontend/index.css": "Tailwind base file defining OKLCH theme variables for light and dark mode with global styles.",
+  "frontend/index.html": "HTML entry point mounting the React app and loading main.tsx.",
+  "frontend/src/App.tsx": "Simple wrapper component rendering ValentineApp.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages a backend actor tied to Internet Identity authentication.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provider and hook managing Internet Identity login state, stored identities, and AuthClient setup.",
+  "frontend/src/index.css": "Tailwind-driven pink-themed global styles with OKLCH variables and fade-in animations.",
+  "frontend/src/main.tsx": "React entry point that sets up query client, identity provider, and renders App.",
+  "frontend/src/ValentineApp.tsx": "Interactive Valentine page with a dodging No button and a meme reveal after Yes is clicked.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending colors, radius, animations, and fonts using OKLCH theme variables.",
+  "project_state.json": "Defines the project’s Valentine-themed interactive web page state, including existing features, pending requests, and styling/behavior requirements. Contains configuration, feature metadata, and notes for a single-page HTML/CSS/JS implementation."
 }

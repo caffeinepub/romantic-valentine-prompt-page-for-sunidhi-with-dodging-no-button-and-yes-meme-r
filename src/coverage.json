@@ -1,7 +1,7 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-08T22:28:18.700Z",
+  "generatedAt": "2026-02-09T14:21:20.721Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
@@ -12,8 +12,8 @@
     "items": []
   },
   "changedFiles": [
+    "backend/main.mo",
     "build-request.json",
-    "build-template/README.md",
     "feature_evidence.json",
     "frontend-implementation-plan.json",
     "project_state.json",

@@ -1,31 +1,21 @@
 {
   "kind": "build_request",
-  "title": "No-op: Valentine surprise page request matches already implemented features",
+  "title": "No-op: Valentine page already matches requested prompt and interactions",
   "priority": "normal",
   "requirements": [],
   "constraints": [
-    "Do not edit frontend immutable paths: frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, frontend/src/components/ui.",
-    "Keep backend as a single Motoko actor in backend/main.mo; only add migration.mo if upgrading existing persisted state.",
-    "Keep the page fully client-side and runnable smoothly in Chrome on iPad; do not add reliance on external services."
+    "Do not edit any files under `frontend/src/components/ui` (read-only shadcn components); compose them instead if needed.",
+    "Do not edit immutable paths listed in SYSTEM_CONTEXT (e.g., `frontend/src/main.tsx`, `frontend/src/hooks/useActor.ts`, `frontend/src/hooks/useInternetIdentity.ts`).",
+    "Keep the app fully client-side; do not add external services or backend dependencies for this page.",
+    "Backend must remain single-actor Motoko; only add `migration.mo` if persistent state changes are introduced (not needed for this request)."
   ],
   "nonGoals": [
-    "Adding new animations, extra steps, additional pages, or additional choices beyond the existing Yes/No Valentine prompt flow.",
-    "Introducing new backend APIs, persistence, or authentication requirements for this Valentine page."
+    "Adding authentication (Internet Identity) to the Valentine page.",
+    "Adding any backend APIs or persistence for the Valentine interaction.",
+    "Adding additional pages, routes, or features beyond the Yes/No Valentine prompt and the Yes-confirmation meme view."
   ],
   "imageRequirements": {
     "required": [],
     "edits": []
-  },
-  "userProfileUpdate": {
-    "goalsToAdd": [],
-    "goalsToRemove": [],
-    "preferencesToAdd": [
-      "Use English for any user-facing text."
-    ],
-    "preferencesToRemove": [],
-    "miscToAdd": [],
-    "miscToRemove": [],
-    "fieldsToSet": {},
-    "fieldsToDelete": []
   }
 }
