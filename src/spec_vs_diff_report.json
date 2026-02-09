@@ -1,0 +1,34 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-08T22:28:18.698Z",
+  "summary": "BuildRequest specifies no requirements and no acceptance criteria. The diff only modifies `project_state.json`, adding/recording multiple Valentine-page features and associated REQ IDs plus new feature requests, which were not requested by the BuildRequest.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "Introduced/recorded multiple requirements (REQ-1 through REQ-6) and corresponding Valentine page feature descriptions (Yes/No prompt, dodging No button, Yes shows meme + “Good choice❤❤❤”, pink/white theme, static assets path, iPad Chrome client-side constraints) despite the BuildRequest stating there are no requirements.",
+      "reason": "BuildRequest explicitly lists “Requirements: none”, yet the diff adds feature entries with REQ IDs and detailed functionality.",
+      "evidence": [
+        "project_state.json"
+      ]
+    },
+    {
+      "description": "Added a set of new feature requests (AR-1 through AR-4) marked as pending.",
+      "reason": "No new feature requests were asked for; the ticket is explicitly a no-op and lists non-goals against adding extra steps/features.",
+      "evidence": [
+        "project_state.json"
+      ]
+    },
+    {
+      "description": "Added/recorded an architectural note suggesting a single self-contained HTML file with embedded CSS/JS.",
+      "reason": "Not requested; also may conflict with an existing app structure, but the BuildRequest provides no requirement to change architecture.",
+      "evidence": [
+        "project_state.json"
+      ]
+    }
+  ],
+  "confidence": 0.72,
+  "changed_files": [
+    "project_state.json"
+  ]
+}

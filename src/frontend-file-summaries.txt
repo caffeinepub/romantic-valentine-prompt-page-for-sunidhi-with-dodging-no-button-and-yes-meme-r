@@ -1,0 +1,7 @@
+{
+  "frontend/src/App.tsx": "Root component that renders the ValentineApp component as the main application view.",
+  "frontend/src/ValentineApp.tsx": "Single-page Valentine prompt component that displays a romantic question to Sunidhi with Yes/No buttons, implements dodging behavior for the No button using pointer events, and shows a meme with \"Good choice❤❤❤\" text after clicking Yes.",
+  "frontend/src/index.css": "Global styles with a romantic pink and white OKLCH color system for both light and dark modes, custom animations, and base styling for the Valentine theme.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with the romantic pink theme colors, custom border radius, and font family settings.",
+  "frontend/public/assets/generated/good-choice-meme.dim_900x600.png": "Generated meme image displayed after clicking Yes, featuring romantic celebratory visuals with \"Good choice❤❤❤\" text."
+}

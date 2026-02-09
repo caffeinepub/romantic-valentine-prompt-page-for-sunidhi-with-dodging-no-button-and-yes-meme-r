@@ -1,2 +1,3 @@
-# romantic-valentine-prompt-page-for-sunidhi-with-dodging-no-button-and-yes-meme-r
-Exported from Caffeine project: Romantic Valentine prompt page for Sunidhi with dodging No button and Yes meme reveal
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`
